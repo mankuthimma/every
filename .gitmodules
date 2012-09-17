@@ -1,0 +1,6 @@
+[submodule "deps/commander"]
+	path = deps/commander
+	url = git@github.com:visionmedia/commander.c.git
+[submodule "deps/ms"]
+	path = deps/ms
+	url = git@github.com:visionmedia/ms.c.git
