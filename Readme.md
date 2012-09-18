@@ -8,7 +8,6 @@
 
 ```
 $ git clone git://github.com/visionmedia/every.git
-$ git submodule update --init
 $ make install
 ```
 
