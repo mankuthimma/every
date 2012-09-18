@@ -16,7 +16,7 @@
  * Version.
  */
 
-#define VERSION "0.0.1"
+#define VERSION "1.0.0"
 
 /*
  * Output error `msg`.
