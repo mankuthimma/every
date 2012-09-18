@@ -62,16 +62,15 @@ main(int argc, char **argv){
   if (program.argc < 2) error("<cmd> required");
 
   // interval
-  long long ms = string_to_milliseconds(argv[1]);
-  if (-1 == ms) error("invalid <interval>");
-  int seconds = ms / 1000;
+  long long sec = string_to_seconds(argv[1]);
+  if (-1 == sec) error("invalid <interval>");
 
   // cmd
   char *cmd = concat(argc - 2, argv + 2);
 
   // exec
   while (1) {
-    sleep(seconds);
+    sleep(sec);
     system(cmd);
   }
 
